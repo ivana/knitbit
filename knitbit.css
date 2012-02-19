@@ -9,7 +9,7 @@ body {
   text-shadow:1px 1px 1px #ccc;
 }
   body > div {
-    margin:0 auto; padding:15px 30px;
+    margin:0 auto; padding:15px 50px;
     width:500px; min-height:1000px;
     background:floralwhite;
     border:1px dashed #E6B287;
