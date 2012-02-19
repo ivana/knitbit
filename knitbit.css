@@ -1,0 +1,7 @@
+* { margin:0; padding:0; }
+body {
+  background:snow; color:#555;
+  width:500px; margin:0 auto; padding:10px 30px;
+  border-width:0 1px; border-style:dotted; border-color:#aaa;
+  font:12px/1.5 "Helvetica Neue", helvetica, sans-serif;
+}
