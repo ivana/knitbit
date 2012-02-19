@@ -1,7 +1,23 @@
+@import url(http://fonts.googleapis.com/css?family=Delius+Swash+Caps);
+@font-face { font-family:"Museo Sans"; src:url("/fonts/MuseoSans_500.otf") }
+@font-face { font-family:"Museo Sans"; src:url("/fonts/MuseoSans_500_Italic.otf"); font-style:italic }
+
 * { margin:0; padding:0; }
 body {
-  background:snow; color:#555;
-  width:500px; margin:0 auto; padding:10px 30px;
-  border-width:0 1px; border-style:dotted; border-color:#aaa;
-  font:12px/1.5 "Helvetica Neue", helvetica, sans-serif;
+  background-color:#E6C0A0; color:#444;
+  font:14px/1.5 Geneva, "Museo Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  text-shadow:1px 1px 1px #ccc;
 }
+  body > div {
+    margin:0 auto; padding:15px 30px;
+    width:500px; min-height:1000px;
+    background:floralwhite;
+    border:1px dashed #E6B287;
+  }
+
+body > div > h1 {
+  font:64px 'Delius Swash Caps', cursive; letter-spacing:1px;
+  margin-bottom:40px;
+  color:indianred;
+}
+img { margin-bottom:40px; border:1px solid #E6C0A0; }
